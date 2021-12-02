@@ -37,7 +37,6 @@ export default function App() {
     <Router>
       <Topbar />
       <Switch>
-        <Route path="/mentorship" component={Mentorship} />
         <Route path="/" component={mainBody} />
       </Switch>
       <Footer />
