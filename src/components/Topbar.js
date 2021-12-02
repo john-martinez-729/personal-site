@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Row, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import logo from "../images/logo-white.png";
-import resume from "../images/jmartinez-resume-2022.pdf";
+import resume from "../images/resume.pdf";
 
 export default function Topbar() {
   function mentorship() {
