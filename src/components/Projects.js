@@ -93,7 +93,7 @@ export default function Projects() {
           <Col md={4} className="project-col">
             <a
               className="project-link"
-              href="https://john-martinez-729.github.io/open-hive-war/"
+              href="https://john-martinez-729.github.io/dnd-horde-battler/"
               target="_blank"
             >
               <div className="project-card">
@@ -109,7 +109,7 @@ export default function Projects() {
           <Col md={4} className="project-col">
             <a
               className="project-link"
-              href="https://john-martinez-729.github.io/dnd-horde-battler/"
+              href="https://john-martinez-729.github.io/open-hive-war/"
               target="_blank"
             >
               <div className="project-card">
