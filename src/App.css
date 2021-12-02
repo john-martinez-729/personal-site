@@ -1,38 +1,357 @@
-.App {
+:root {
+  --color-main: #2f2f40;
+  --color-special: #ff4171;
+  --color-special-hover: #f02458;
+  --color-special-shadow: rgba(255, 51, 103, 0.3);
+  --color-special2: #00f5bc;
+  --color-special2-hover: #00e6ad;
+  --color-special2-shadow: rgba(0, 245, 188, 0.5);
+  --color-white-shadow: rgba(255, 255, 255, 0.3);
+  --color-light-blue: #ebf0f8;
+  --color-dark: #424259;
+  --color-darker: #353548;
+  --color-darkest: #001235;
+  --color-gray: #999999;
+  --color-light: #f0f0f0;
+  --header-height: 95px;
+  --color-border: #e6ecf8;
+  --shadow-width: 3px;
+  --wrap-width: 1160px;
+  --wrap-wide: 1265px;
+  --blocks-padding: 50px;
+  --blocks-padding-sm: 15px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.app-container {
+  font-family: "europa", sans-serif !important;
+  color: var(--color-main);
+  font-size: 18px;
+  padding: 0;
+}
+
+.hoverable-text:hover .navbar-text {
+  color: var(--color-special) !important;
+  cursor: pointer;
+}
+
+.outline-btn {
+  background: var(--color-special2);
+  color: var(--color-dark) !important;
+  border-color: var(--color-special2) !important;
+  padding: 8px 24px;
+  font-weight: bold;
+}
+
+.outline-btn:hover {
+  background-color: var(--color-special2-hover) !important;
+  border-color: var(--color-special2-hover) !important;
+}
+
+.header {
   text-align: center;
+  padding: 120px 48px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.project-header {
+  text-align: center;
+  padding: 60px 48px;
+  /* padding-top: 0; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin-bottom: 32px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.hero-title {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.hero-p {
+  color: white;
+  font-weight: 300;
+  margin-bottom: 120px;
+  font-size: 22px;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: 300;
+  width: 100%;
+  padding: 0 20%;
+}
+
+.project-header .subtitle {
+  padding: 0;
+}
+
+.primary-section {
+  background-color: var(--color-dark);
+  text-align: center;
+  padding: 120px 32px;
+  padding-bottom: 12rem;
+}
+
+.skills-div {
+  padding: 16px;
+}
+
+.skills-row {
+}
+
+.skill-card {
+  text-align: center;
+  padding: 70px 45px;
+  /* min-width: 400px; */
+}
+
+.skill-card:not(:last-child) {
+  border-right: 1px solid var(--color-border);
+}
+
+.skill-card-title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+.skill-content {
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+
+.skill-content.lg {
+  height: 80px;
+}
+
+.skill-content.sm {
+  height: 60px;
+}
+
+.skill-title {
+  color: var(--color-special);
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+
+.skill-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-list li {
+  font-weight: 300;
+  margin-bottom: 4px;
+}
+
+.box-shadow {
+  margin-top: -12rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px var(--color-border);
+  /* display: flex;
+  flex-direction: row; */
+}
+
+.skill-icon {
+  color: var(--color-special);
+  font-size: 60px;
+  margin-bottom: 32px;
+}
+
+.recent-work-section {
+  text-align: center;
+  padding: 120px 16px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.work-tile {
+  height: 250px;
+  border-radius: 16px;
   align-items: center;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.work-tile.midchains {
+  background-color: var(--color-dark);
+}
+
+.footer {
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+  padding: 4rem;
+  text-align: center;
+  background-color: var(--color-dark);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.mentorship-price {
+  color: var(--color-special);
+  font-weight: bold;
+  margin-bottom: 32px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.booking-btn {
+  border-radius: 100px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 300;
+  background: var(--color-special);
+  border-color: var(--color-special);
+}
+
+.booking-btn:hover {
+  background: var(--color-special-hover);
+  border-color: var(--color-special-hover);
+}
+
+.topbar-logo {
+  height: 100px;
+  width: 100px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 32px;
+  background: var(--color-dark);
+}
+
+.carousel-title {
+  color: black;
+}
+
+.carousel-content {
+  color: black;
+}
+
+.project-section {
+  padding: 48px;
+}
+
+.project-row {
+  margin-bottom: 16px;
+  justify-content: center;
+}
+
+.project-link {
+  color: black;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  color: black;
+}
+
+.project-card {
+  height: 300px;
+  /* width: 300px; */
+  border-radius: 13px;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "europa", sans-serif !important;
+  cursor: pointer;
+}
+
+.project-card:hover {
+  box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px var(--color-border);
+}
+
+.project-card h3 {
+  font-size: 18px;
+  color: var(--color-special);
+}
+
+.project-card p {
+  font-weight: 300;
+}
+
+.project-image {
+  height: 80px;
+  margin-bottom: 16px;
+}
+
+.project-col {
+  /* padding: 0; */
+}
+
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 992px) {
+  .skill-card {
+    padding: 32px 16px;
+    /* min-width: 300px !important; */
+    /* max-width: 343px !important; */
+    border-right: none !important;
   }
-  to {
-    transform: rotate(360deg);
+
+  .skill-card:not(:last-child) {
+    border-bottom: 1px solid var(--color-border) !important;
+  }
+
+  .primary-section {
+    padding-top: 48px;
+  }
+
+  .hero-title {
+    font-size: 22px;
+  }
+
+  .hero-p {
+    margin-bottom: 34px;
+    font-size: 16px;
+  }
+
+  .title {
+    /* font-size: 22px; */
+  }
+
+  .subtitle {
+    font-size: 16px;
+    padding: 0;
+  }
+
+  .topbar-logo {
+    height: 80px;
+    width: 80px;
+  }
+
+  .topbar {
+    padding: 8px 16px;
+  }
+
+  .header {
+    padding: 48px;
+  }
+
+  .project-section {
+    padding: 0px;
+  }
+
+  .project-row {
+    /* padding-bottom: 0; */
+    /* margin: 0; */
+    margin-bottom: 0;
+  }
+
+  .project-header {
+    padding: 16px;
+    padding-top: 32px;
   }
 }

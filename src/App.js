@@ -1,25 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import {
+  Topbar,
+  Header,
+  Hero,
+  Skills,
+  Footer,
+  Mentorship,
+  Projects,
+} from "./components";
+import { BiCodeAlt, BiBookHeart, BiCopyright } from "react-icons/bi";
+import { RiPencilRuler2Line, RiReactjsFill } from "react-icons/ri";
+import { SiJavascript } from "react-icons/si";
 
-function App() {
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+
+export default function App() {
+  function mainBody() {
+    return (
+      <div className="app">
+        <Header />
+        <Hero />
+        <Skills />
+        <Projects />
+      </div>
+    );
+  }
+
+  function mentorship() {
+    return <Mentorship />;
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Topbar />
+      <Switch>
+        <Route path="/mentorship" component={Mentorship} />
+        <Route path="/" component={mainBody} />
+      </Switch>
+      <Footer />
+    </Router>
   );
 }
-
-export default App;
