@@ -1,17 +1,14 @@
 import React from "react";
 import { Navbar, Button, Container, Image } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import logo from "../images/logo-white.png";
 import resume from "../images/resume.pdf";
 
 export default function Topbar({ handleShow }) {
   return (
     <Navbar collapseOnSelect expand="sm" className="topbar" variant="dark">
-      <Link to="/">
-        <Navbar.Brand>
-          <Image src={logo} className="topbar-logo" />
-        </Navbar.Brand>
-      </Link>
+      <Navbar.Brand>
+        <Image src={logo} className="topbar-logo" />
+      </Navbar.Brand>
 
       <Navbar.Toggle
         className="custom-toggler"
