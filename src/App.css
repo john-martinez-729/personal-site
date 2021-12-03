@@ -6,6 +6,7 @@
   --color-special2: #00f5bc;
   --color-special2-hover: #00e6ad;
   --color-special2-shadow: rgba(0, 245, 188, 0.5);
+  --color-special2-dark: #048c6c;
   --color-white-shadow: rgba(255, 255, 255, 0.3);
   --color-light-blue: #ebf0f8;
   --color-dark: #424259;
@@ -44,13 +45,19 @@
   background: var(--color-special2);
   color: var(--color-dark) !important;
   border-color: var(--color-special2) !important;
-  padding: 8px 24px;
+  padding: 8px 16px;
   font-weight: bold;
+  /* width: 120px; */
 }
 
 .outline-btn:hover {
   background-color: var(--color-special2-hover) !important;
   border-color: var(--color-special2-hover) !important;
+}
+
+.outline-btn:disabled {
+  background: var(--color-special2-dark) !important;
+  border-color: var(--color-special2-dark) !important;
 }
 
 .header {
@@ -216,9 +223,31 @@
   border-color: var(--color-special-hover);
 }
 
+.navbar-div {
+  width: 100%;
+  justify-content: flex-end !important;
+  display: flex;
+}
+
 .topbar-logo {
   height: 100px;
   width: 100px;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0, 245, 188)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #00f5bc;
+}
+
+.custom-toggler .navbar-toggler-icon:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0, 230, 173)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler:hover {
+  border-color: rgb(0, 230, 173);
 }
 
 .topbar {
@@ -229,11 +258,11 @@
 }
 
 .carousel-title {
-  color: black;
+  color: var(--color-main);
 }
 
 .carousel-content {
-  color: black;
+  color: var(--color-main);
 }
 
 .project-section {
@@ -246,12 +275,12 @@
 }
 
 .project-link {
-  color: black;
+  color: var(--color-main);
   text-decoration: none;
 }
 
 .project-link:hover {
-  color: black;
+  color: var(--color-main);
 }
 
 .project-card {
@@ -288,6 +317,14 @@
 
 .project-col {
   /* padding: 0; */
+}
+
+.contact-form {
+  border: none;
+  background: #f0f0f0 !important;
+  margin-bottom: 8px;
+  min-height: 50px;
+  color: var(--color-main);
 }
 
 @media only screen and (max-width: 1200px) {

@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Carousel, Row, Col, Container, Image } from "react-bootstrap";
+import { Row, Col, Container, Image } from "react-bootstrap";
 import fimobile from "../images/fimobile.png";
 import midchains from "../images/midchains.png";
 import mosaic from "../images/mosaic.png";
@@ -12,20 +12,19 @@ export default function Projects() {
     <div className="project-section">
       <Container>
         <div className="project-header">
-          <h1 noGutters className="title">
-            Projects
-          </h1>
-          <h2 noGutters className="subtitle">
+          <h1 className="title">Projects</h1>
+          <h2 className="subtitle">
             Here are a few projects I've been working on, both professionally
             and for fun.
           </h2>
         </div>
-        <Row noGutters className="project-row">
+        <Row className="project-row">
           <Col md={4} className="project-col">
             <a
               className="project-link"
               href="https://drive.google.com/file/d/1Yz_HdEO7VY9f4w77eqzsKhupomviap5c/view?usp=sharing"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <div className="project-card">
                 <Image src={fimobile} className="project-image" />
@@ -43,6 +42,7 @@ export default function Projects() {
               className="project-link"
               href="https://mid-onboarding.fi-edition.com/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <div className="project-card">
                 <Image src={midchains} className="project-image" />
@@ -60,6 +60,7 @@ export default function Projects() {
               className="project-link"
               href="https://research.mexchange.online/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <div className="project-card">
                 <Image src={mosaic} className="project-image" />
@@ -79,6 +80,7 @@ export default function Projects() {
               className="project-link"
               href="https://risk.fi-edition.com/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <div className="project-card">
                 <Image src={onboarding} className="project-image" />
@@ -95,6 +97,7 @@ export default function Projects() {
               className="project-link"
               href="https://john-martinez-729.github.io/dnd-horde-battler/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <div className="project-card">
                 <Image src={dndvector} className="project-image" />
@@ -111,6 +114,7 @@ export default function Projects() {
               className="project-link"
               href="https://john-martinez-729.github.io/open-hive-war/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <div className="project-card">
                 <Image src={necromunda} className="project-image" />

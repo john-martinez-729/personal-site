@@ -1,4 +1,5 @@
 import React from "react";
+import { Image } from "react-bootstrap";
 import { BiCopyright } from "react-icons/bi";
 import { RiReactjsFill } from "react-icons/ri";
 import { SiJavascript } from "react-icons/si";
@@ -7,7 +8,7 @@ import logoInverted from "../images/logo-inverted.png";
 export default function Footer() {
   return (
     <footer className="footer">
-      <img
+      <Image
         src={logoInverted}
         style={{ width: "100px", height: "100px", marginBottom: "32px" }}
       />
