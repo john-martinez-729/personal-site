@@ -27,7 +27,11 @@ export default function Projects() {
               rel="noopener noreferrer"
             >
               <div className="project-card">
-                <Image src={fimobile} className="project-image" />
+                <Image
+                  src={fimobile}
+                  className="project-image"
+                  alt="FI Mobile Logo"
+                />
                 <h3>FI Mobile</h3>
                 <p>
                   An iOS and Android mobile app used for trading and maintaining
@@ -45,7 +49,11 @@ export default function Projects() {
               rel="noopener noreferrer"
             >
               <div className="project-card">
-                <Image src={midchains} className="project-image" />
+                <Image
+                  src={midchains}
+                  className="project-image"
+                  alt="MidChains Logo"
+                />
                 <h3>MidChains Onboarding</h3>
                 <p>
                   This application allows users to onboard themselves by filling
@@ -63,7 +71,11 @@ export default function Projects() {
               rel="noopener noreferrer"
             >
               <div className="project-card">
-                <Image src={mosaic} className="project-image" />
+                <Image
+                  src={mosaic}
+                  className="project-image"
+                  alt="Mosaic Logo"
+                />
                 <h3>Mosaic Exchange</h3>
                 <p>
                   Profile builder for financial assets. Users can sign up to
@@ -83,7 +95,11 @@ export default function Projects() {
               rel="noopener noreferrer"
             >
               <div className="project-card">
-                <Image src={onboarding} className="project-image" />
+                <Image
+                  src={onboarding}
+                  className="project-image"
+                  alt="Onboarding Logo"
+                />
                 <h3>FI Onboarding & Risk Tools</h3>
                 <p>
                   Constructed admin and user tools for onboarding and risk
@@ -100,11 +116,15 @@ export default function Projects() {
               rel="noopener noreferrer"
             >
               <div className="project-card">
-                <Image src={dndvector} className="project-image" />
+                <Image
+                  src={dndvector}
+                  className="project-image"
+                  alt="Horde Battler Logo"
+                />
                 <h3>D&D Horde Battler</h3>
                 <p>
-                  Simulate large battles between large groups of creatures
-                  utilizing D&D's d20 system.
+                  Simulate large battles between hordes of creatures utilizing
+                  D&D's d20 system.
                 </p>
               </div>
             </a>
@@ -117,7 +137,11 @@ export default function Projects() {
               rel="noopener noreferrer"
             >
               <div className="project-card">
-                <Image src={necromunda} className="project-image" />
+                <Image
+                  src={necromunda}
+                  className="project-image"
+                  alt="Open Hive War Logo"
+                />
                 <h3>Open Hive War</h3>
                 <p>
                   Automatically generate missions for Necromunda using the Open

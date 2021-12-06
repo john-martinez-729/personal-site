@@ -12,11 +12,11 @@ export default function Skills() {
             <BiCodeAlt className="skill-icon" />
             <h2 className="skill-card-title">Software Developer</h2>
             <p className="skill-content lg">
-              I love to code, and enjoy bringing ideas to life on a browser or
+              I love to code and enjoy bringing ideas to life on a browser or
               mobile device.
             </p>
             <h3 className="skill-title">Languages I speak:</h3>
-            <p className="skill-content sm">HTML, JS, CSS, Sass, Ruby, SQL</p>
+            <p className="skill-content sm">JS, HTML, CSS, Sass, Ruby, SQL</p>
             <h3 className="skill-title">Dev Skills:</h3>
             <ul className="skill-list">
               <li>React</li>
@@ -35,7 +35,7 @@ export default function Skills() {
               decisions.
             </p>
             <h3 className="skill-title">Things I enjoy designing:</h3>
-            <p className="skill-content sm">UX, UI, Web, Mobile, Apps</p>
+            <p className="skill-content sm">Web, Mobile, Apps, UI, UX</p>
             <h3 className="skill-title">Design Skills:</h3>
             <ul className="skill-list">
               <li>Photoshop</li>
@@ -55,7 +55,8 @@ export default function Skills() {
             </p>
             <h3 className="skill-title">Experiences I draw from:</h3>
             <p className="skill-content sm">
-              1000's of hours of dev experience, creating all types of projects
+              Thousands of hours of dev experience, creating all types of
+              projects
             </p>
             <h3 className="skill-title">Mentorship Offerings:</h3>
             <ul className="skill-list">

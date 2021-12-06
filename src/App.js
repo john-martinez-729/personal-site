@@ -21,6 +21,9 @@ export default function App() {
     console.log(
       "Thanks for checking out my page! Please feel free to look around and send me feedback on my site if you have any. I am always looking to improve my development skills!"
     );
+    console.log(
+      "If you're interested in hiring me, please check out my resume and shoot me a message via my contact form. :)"
+    );
     return (
       <div className="app">
         <ContactMe show={show} handleClose={handleClose} />
@@ -38,7 +41,7 @@ export default function App() {
       <Switch>
         <Route path="/" component={mainBody} />
       </Switch>
-      <Footer />
+      <Footer handleShow={handleShow} />
     </Router>
   );
 }
