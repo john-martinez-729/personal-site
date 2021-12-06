@@ -22,7 +22,7 @@ export default function Projects() {
           <Col md={4} className="project-col">
             <a
               className="project-link"
-              href="https://drive.google.com/file/d/1Yz_HdEO7VY9f4w77eqzsKhupomviap5c/view?usp=sharing"
+              href="https://youtu.be/hnDsr662-5g"
               target="_blank"
               rel="noopener noreferrer"
             >
