@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.99d1b573.chunk.css",
-    "main.js": "/static/js/main.c358e8eb.chunk.js",
-    "main.js.map": "/static/js/main.c358e8eb.chunk.js.map",
+    "main.css": "/static/css/main.4016d4e4.chunk.css",
+    "main.js": "/static/js/main.0249a13d.chunk.js",
+    "main.js.map": "/static/js/main.0249a13d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ce266ac2.js",
     "runtime-main.js.map": "/static/js/runtime-main.ce266ac2.js.map",
     "static/css/2.28bb0c3d.chunk.css": "/static/css/2.28bb0c3d.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.3243597e.chunk.js.map": "/static/js/3.3243597e.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.28bb0c3d.chunk.css.map": "/static/css/2.28bb0c3d.chunk.css.map",
-    "static/css/main.99d1b573.chunk.css.map": "/static/css/main.99d1b573.chunk.css.map",
+    "static/css/main.4016d4e4.chunk.css.map": "/static/css/main.4016d4e4.chunk.css.map",
     "static/js/2.2e826617.chunk.js.LICENSE.txt": "/static/js/2.2e826617.chunk.js.LICENSE.txt",
     "static/media/fimobile.22e769cd.png": "/static/media/fimobile.22e769cd.png",
     "static/media/logo-inverted.85cf4e25.png": "/static/media/logo-inverted.85cf4e25.png",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.ce266ac2.js",
     "static/css/2.28bb0c3d.chunk.css",
     "static/js/2.2e826617.chunk.js",
-    "static/css/main.99d1b573.chunk.css",
-    "static/js/main.c358e8eb.chunk.js"
+    "static/css/main.4016d4e4.chunk.css",
+    "static/js/main.0249a13d.chunk.js"
   ]
 }
