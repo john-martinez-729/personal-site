@@ -71,30 +71,19 @@ export default function ContactMe({ show, handleClose }) {
         <Modal.Title>Contact Me</Modal.Title>
       </Modal.Header>
       <Modal.Body>
+        <FormControl placeholder="Name..." onChange={handleChangeName} />
+        <FormControl placeholder="Email..." onChange={handleChangeEmail} />
         <FormControl
-          className="contact-form"
-          placeholder="Name..."
-          onChange={handleChangeName}
-        />
-        <FormControl
-          className="contact-form"
-          placeholder="Email..."
-          onChange={handleChangeEmail}
-        />
-        <FormControl
-          className="contact-form"
           placeholder="Message..."
           as="textarea"
           onChange={handleChangeNotes}
         />
       </Modal.Body>
       <Modal.Footer>
-        <Button className="outline-btn" onClick={send} disabled={disabled}>
+        <Button onClick={send} disabled={disabled}>
           Send
         </Button>
-        <Button className="outline-btn" onClick={handleClose}>
-          Close
-        </Button>
+        <Button onClick={handleClose}>Close</Button>
       </Modal.Footer>
     </Modal>
   );

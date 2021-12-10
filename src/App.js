@@ -25,7 +25,7 @@ export default function App() {
       "If you're interested in hiring me, please check out my resume and shoot me a message via my contact form. :)"
     );
     return (
-      <div className="app">
+      <div className="main">
         <ContactMe show={show} handleClose={handleClose} />
         <Header />
         <Hero />

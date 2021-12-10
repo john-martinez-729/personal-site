@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Container, Image } from "react-bootstrap";
+import { Row, Col, Image } from "react-bootstrap";
 import fimobile from "../images/fimobile.png";
 import midchains from "../images/midchains.png";
 import mosaic from "../images/mosaic.png";
@@ -9,17 +9,17 @@ import necromunda from "../images/necromunda.png";
 
 export default function Projects() {
   return (
-    <div className="project-section">
-      <Container>
+    <section className="project-section">
+      <div className="container">
         <div className="project-header">
-          <h1 className="title">Projects</h1>
-          <h2 className="subtitle">
+          <h2>Projects</h2>
+          <p>
             Here are a few projects I've been working on, both professionally
             and for fun.
-          </h2>
+          </p>
         </div>
-        <Row className="project-row">
-          <Col md={4} className="project-col">
+        <Row>
+          <Col md={4}>
             <a
               className="project-link"
               href="https://youtu.be/hnDsr662-5g"
@@ -27,11 +27,7 @@ export default function Projects() {
               rel="noopener noreferrer"
             >
               <div className="project-card">
-                <Image
-                  src={fimobile}
-                  className="project-image"
-                  alt="FI Mobile Logo"
-                />
+                <Image src={fimobile} alt="FI Mobile Logo" />
                 <h3>FI Mobile</h3>
                 <p>
                   An iOS and Android mobile app used for trading and maintaining
@@ -41,7 +37,7 @@ export default function Projects() {
               </div>
             </a>
           </Col>
-          <Col md={4} className="project-col">
+          <Col md={4}>
             <a
               className="project-link"
               href="https://mid-onboarding.fi-edition.com/"
@@ -49,21 +45,17 @@ export default function Projects() {
               rel="noopener noreferrer"
             >
               <div className="project-card">
-                <Image
-                  src={midchains}
-                  className="project-image"
-                  alt="MidChains Logo"
-                />
+                <Image src={midchains} alt="MidChains Logo" />
                 <h3>MidChains Onboarding</h3>
                 <p>
-                  This application allows users to onboard themselves by filling
-                  out admin-constructed forms. Built with React, Redux-Saga,
-                  React Bootstrap and other packages.
+                  A web app that allows admins to create forms for users to
+                  onboard themselves. Built with React, Redux-Saga, React
+                  Bootstrap and other packages.
                 </p>
               </div>
             </a>
           </Col>
-          <Col md={4} className="project-col">
+          <Col md={4}>
             <a
               className="project-link"
               href="https://research.mexchange.online/"
@@ -71,11 +63,7 @@ export default function Projects() {
               rel="noopener noreferrer"
             >
               <div className="project-card">
-                <Image
-                  src={mosaic}
-                  className="project-image"
-                  alt="Mosaic Logo"
-                />
+                <Image src={mosaic} alt="Mosaic Logo" />
                 <h3>Mosaic Exchange</h3>
                 <p>
                   Profile builder for financial assets. Users can sign up to
@@ -86,8 +74,8 @@ export default function Projects() {
             </a>
           </Col>
         </Row>
-        <Row className="project-row">
-          <Col md={4} className="project-col">
+        <Row>
+          <Col md={4}>
             <a
               className="project-link"
               href="https://risk.fi-edition.com/"
@@ -95,11 +83,7 @@ export default function Projects() {
               rel="noopener noreferrer"
             >
               <div className="project-card">
-                <Image
-                  src={onboarding}
-                  className="project-image"
-                  alt="Onboarding Logo"
-                />
+                <Image src={onboarding} alt="Onboarding Logo" />
                 <h3>FI Onboarding & Risk Tools</h3>
                 <p>
                   Constructed admin and user tools for onboarding and risk
@@ -108,7 +92,7 @@ export default function Projects() {
               </div>
             </a>
           </Col>
-          <Col md={4} className="project-col">
+          <Col md={4}>
             <a
               className="project-link"
               href="https://john-martinez-729.github.io/dnd-horde-battler/"
@@ -116,11 +100,7 @@ export default function Projects() {
               rel="noopener noreferrer"
             >
               <div className="project-card">
-                <Image
-                  src={dndvector}
-                  className="project-image"
-                  alt="Horde Battler Logo"
-                />
+                <Image src={dndvector} alt="Horde Battler Logo" />
                 <h3>D&D Horde Battler</h3>
                 <p>
                   Simulate large battles between hordes of creatures utilizing
@@ -129,7 +109,7 @@ export default function Projects() {
               </div>
             </a>
           </Col>
-          <Col md={4} className="project-col">
+          <Col md={4}>
             <a
               className="project-link"
               href="https://john-martinez-729.github.io/open-hive-war/"
@@ -137,11 +117,7 @@ export default function Projects() {
               rel="noopener noreferrer"
             >
               <div className="project-card">
-                <Image
-                  src={necromunda}
-                  className="project-image"
-                  alt="Open Hive War Logo"
-                />
+                <Image src={necromunda} alt="Open Hive War Logo" />
                 <h3>Open Hive War</h3>
                 <p>
                   Automatically generate missions for Necromunda using the Open
@@ -151,7 +127,7 @@ export default function Projects() {
             </a>
           </Col>
         </Row>
-      </Container>
-    </div>
+      </div>
+    </section>
   );
 }
