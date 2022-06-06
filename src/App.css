@@ -30,6 +30,15 @@
   max-width: 70.5rem;
 }
 
+@media only screen and (max-width: 62em) {
+  .container {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
 .btn-primary {
   background: var(--color-secondary-400);
   color: var(--color-neutral-400) !important;
@@ -74,8 +83,11 @@ header p,
 
 .primary-section p {
   font-weight: 300;
-  margin-bottom: 6.25rem;
   font-size: 1.375rem;
+}
+
+.primary-section p:last-child {
+  margin-bottom: 6.25rem;
 }
 
 .primary-section {
@@ -99,12 +111,17 @@ header div {
 
 @media only screen and (max-width: 62em) {
   .primary-section {
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem; */
+    padding-top: 4rem;
   }
 
   .primary-section p {
     margin-bottom: 3rem;
     font-size: 1rem;
+  }
+
+  .primary-section h2 {
+    font-size: 1.43rem;
   }
 }
 
@@ -158,7 +175,7 @@ header div {
 
 @media only screen and (max-width: 62em) {
   .skill-card {
-    padding: 2rem 1rem;
+    padding: 2rem 1.5rem;
     /* min-width: 300px !important; */
     /* max-width: 343px !important; */
     border-right: none !important;

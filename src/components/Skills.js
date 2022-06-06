@@ -16,7 +16,7 @@ export default function Skills() {
               mobile device.
             </p>
             <h3>Languages I speak:</h3>
-            <p className="sm">JS, HTML, CSS, Sass, Ruby, SQL</p>
+            <p className="sm">JS, TS, HTML, CSS, Sass, SQL</p>
             <h3>Dev Skills:</h3>
             <ul>
               <li>React</li>
@@ -55,8 +55,7 @@ export default function Skills() {
             </p>
             <h3>Experiences I draw from:</h3>
             <p className="sm">
-              Thousands of hours of dev experience, creating all types of
-              projects
+              1000s of hours of dev experience, creating all types of projects
             </p>
             <h3>Mentorship Offerings:</h3>
             <ul>
