@@ -1,29 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.5c8fc1e4.chunk.css",
-    "main.js": "/static/js/main.404160da.chunk.js",
-    "main.js.map": "/static/js/main.404160da.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.558264b1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.558264b1.js.map",
-    "static/css/2.28bb0c3d.chunk.css": "/static/css/2.28bb0c3d.chunk.css",
-    "static/js/2.8eb0c3d1.chunk.js": "/static/js/2.8eb0c3d1.chunk.js",
-    "static/js/2.8eb0c3d1.chunk.js.map": "/static/js/2.8eb0c3d1.chunk.js.map",
-    "static/js/3.e30437cf.chunk.js": "/static/js/3.e30437cf.chunk.js",
-    "static/js/3.e30437cf.chunk.js.map": "/static/js/3.e30437cf.chunk.js.map",
+    "main.css": "/static/css/main.3f4ba471.css",
+    "main.js": "/static/js/main.efa3393d.js",
+    "static/js/453.d6da8aaa.chunk.js": "/static/js/453.d6da8aaa.chunk.js",
+    "static/media/fimobile.png": "/static/media/fimobile.22e769cdd6432bde9ed7.png",
+    "static/media/reveal-logo.png": "/static/media/reveal-logo.058061e6a23bd849d462.png",
+    "static/media/resume.pdf": "/static/media/resume.72d6e83f344a972e7d2b.pdf",
+    "static/media/defend-logo.jpg": "/static/media/defend-logo.14175ec7043fe0067666.jpg",
+    "static/media/logo-white.png": "/static/media/logo-white.69dca34fc52da9e68246.png",
+    "static/media/logo-inverted.png": "/static/media/logo-inverted.85cf4e25d63d98499d3c.png",
     "index.html": "/index.html",
-    "static/css/2.28bb0c3d.chunk.css.map": "/static/css/2.28bb0c3d.chunk.css.map",
-    "static/css/main.5c8fc1e4.chunk.css.map": "/static/css/main.5c8fc1e4.chunk.css.map",
-    "static/js/2.8eb0c3d1.chunk.js.LICENSE.txt": "/static/js/2.8eb0c3d1.chunk.js.LICENSE.txt",
-    "static/media/fimobile.22e769cd.png": "/static/media/fimobile.22e769cd.png",
-    "static/media/logo-inverted.85cf4e25.png": "/static/media/logo-inverted.85cf4e25.png",
-    "static/media/logo-white.69dca34f.png": "/static/media/logo-white.69dca34f.png",
-    "static/media/resume.e076b8d6.pdf": "/static/media/resume.e076b8d6.pdf"
+    "main.3f4ba471.css.map": "/static/css/main.3f4ba471.css.map",
+    "main.efa3393d.js.map": "/static/js/main.efa3393d.js.map",
+    "453.d6da8aaa.chunk.js.map": "/static/js/453.d6da8aaa.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.558264b1.js",
-    "static/css/2.28bb0c3d.chunk.css",
-    "static/js/2.8eb0c3d1.chunk.js",
-    "static/css/main.5c8fc1e4.chunk.css",
-    "static/js/main.404160da.chunk.js"
+    "static/css/main.3f4ba471.css",
+    "static/js/main.efa3393d.js"
   ]
 }
