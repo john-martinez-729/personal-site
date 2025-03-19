@@ -6,6 +6,9 @@ import mosaic from "../images/mosaic.png";
 import onboarding from "../images/onboarding.png";
 import dndvector from "../images/dndvector.png";
 import necromunda from "../images/necromunda.png";
+import tactacam from "../images/tactacam-logo.png";
+import reveal from "../images/reveal-logo.png";
+import defend from "../images/defend-logo.jpg";
 
 export default function Projects() {
   return (
@@ -122,6 +125,68 @@ export default function Projects() {
                 <p>
                   Automatically generate missions for Necromunda using the Open
                   Hive War cards system.
+                </p>
+              </div>
+            </a>
+          </Col>
+        </Row>
+        {/* Tactacam */}
+        <Row>
+          <Col md={4}>
+            <a
+              className="project-link"
+              href="https://www.tactacam.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="project-card">
+                <Image
+                  src={tactacam}
+                  alt="Tactacam Logo"
+                  style={{ borderRadius: "15px" }}
+                />
+                <h3>Admin Panel by Tactacam</h3>
+                <p>
+                  A platform for Tactacam CSRs to manage and assist user
+                  accounts and data.
+                </p>
+              </div>
+            </a>
+          </Col>
+          <Col md={4}>
+            <a
+              className="project-link"
+              href="https://account.revealcellcam.com/home"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="project-card">
+                <Image
+                  src={reveal}
+                  alt="Reveal Logo"
+                  style={{ borderRadius: "15px" }}
+                />
+                <h3>REVEAL by Tactacam</h3>
+                <p>
+                  A mobile application for Android and iOS that allows users to
+                  manage their Tactacam REVEAL cameras.
+                </p>
+              </div>
+            </a>
+          </Col>
+          <Col md={4}>
+            <a
+              className="project-link"
+              href="https://account.defendcellcam.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="project-card">
+                <Image src={defend} alt="Defend Logo" />
+                <h3>DEFEND by Tactacam</h3>
+                <p>
+                  A mobile application for Android and iOS that allows users to
+                  manage their Tactacam DEFEND cameras.
                 </p>
               </div>
             </a>

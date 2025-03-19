@@ -13,11 +13,24 @@ export default function Hero() {
           use.
         </p>
         <p>
-          Most recently I've worked at Farther, a wealth management company.
-          There I developed the frontend for their new Open Accounts system,
-          which allows advisors to quickly and easily manage large financial
-          plans and all of their associated accounts, clients, beneficiaries and
-          documents.
+          Most recently I've worked at Tactacam, a company that specializes in
+          wireless cameras for hunting and outdoor activities, as well as
+          security, bird watching, and pest control.
+        </p>
+        <p>
+          During my time at Tactacam I acted as the primary front-end developer
+          on the Admin Panel system, a mission-critical platform used by agents
+          to manage user accounts and cameras. I led the development of key
+          features, including a CSR upsell marketplace and a mass notification
+          system for user-wide messaging, and acted as the lead liaison between
+          the front-end team and the UI/UX design team,ensuring seamless
+          integration of design updates and user experience improvements.
+        </p>
+        <p>
+          I also contributed to the development of user-facing web and mobile
+          apps for their two most popular product lines: REVEAL and DEFEND,
+          enabling users to manage and access cameras associated with those
+          systems.
         </p>
       </div>
     </section>
