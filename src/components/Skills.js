@@ -16,15 +16,15 @@ export default function Skills() {
               mobile device.
             </p>
             <h3>Languages I speak:</h3>
-            <p className="sm">JS, TS, HTML, CSS, Sass, SQL</p>
+            <p className="sm">JS, TS, HTML, CSS</p>
             <h3>Dev Skills:</h3>
             <ul>
-              <li>React</li>
+              <li>React + React Native</li>
               <li>Redux</li>
-              <li>React Native</li>
-              <li>Git</li>
+              <li>GraphQL</li>
+              <li>Jest/TDD</li>
               <li>TestFlight</li>
-              <li>Mobile Deployment</li>
+              <li>...and more!</li>
             </ul>
           </Col>
           <Col lg={4} className="skill-card">
@@ -35,15 +35,15 @@ export default function Skills() {
               decisions.
             </p>
             <h3>Things I enjoy designing:</h3>
-            <p className="sm">Web, Mobile, Apps, UI, UX</p>
+            <p className="sm">Web & Mobile Apps, UI/UX</p>
             <h3>Design Skills:</h3>
             <ul>
               <li>Photoshop</li>
               <li>Illustrator</li>
               <li>Adobe XD</li>
+              <li>Figma</li>
               <li>Wireframes</li>
-              <li>Logo Design</li>
-              <li>Pen & Paper</li>
+              <li>Modern design principles</li>
             </ul>
           </Col>
           <Col lg={4} className="skill-card">
@@ -63,7 +63,7 @@ export default function Skills() {
               <li>Project Consultations</li>
               <li>One-on-one Instruction</li>
               <li>Rubber Ducking</li>
-              <li>Product Testing</li>
+              <li>Practice Interviews</li>
               <li>Testing & Feedback</li>
             </ul>
           </Col>

@@ -4,33 +4,39 @@ export default function Hero() {
   return (
     <section className="primary-section">
       <div className="container">
-        <h2>Hi, I'm John. Nice to meet you!</h2>
+        <h2>Hi, I'm John. Thanks for checking out my portfolio!</h2>
+
         <p>
-          My software development journey began in 2019 with a position at the
-          fintech startup Fundamental Interactions. There I consulted with
-          clients and collaborated with talented designers and brilliant
-          managers to create digital products for both business and consumer
-          use.
+          I’m a software developer with over {new Date().getFullYear() - 2019}{" "}
+          years of experience building scalable, high-performance web and mobile
+          applications using React, TypeScript, and Node.js.
         </p>
+
         <p>
-          Most recently I've worked at Tactacam, a company that specializes in
-          wireless cameras for hunting and outdoor activities, as well as
-          security, bird watching, and pest control.
+          I'm passionate about front-end development, with a strong focus on
+          pixel-perfect UI/UX, performance optimization, and team leadership.
         </p>
+
         <p>
-          During my time at Tactacam I acted as the primary front-end developer
-          on the Admin Panel system, a mission-critical platform used by agents
-          to manage user accounts and cameras. I led the development of key
-          features, including a CSR upsell marketplace and a mass notification
-          system for user-wide messaging, and acted as the lead liaison between
-          the front-end team and the UI/UX design team,ensuring seamless
-          integration of design updates and user experience improvements.
+          At Tactacam — my most recent company — I served as the primary
+          front-end developer on the Admin Panel system, an internal tool used
+          by CSRs to manage user accounts and cameras. I led the development of
+          the platform from the ground up, established coding and testing
+          standards, and helped scale the front-end team — resulting in a major
+          increase in output and platform improvements.
         </p>
+
         <p>
-          I also contributed to the development of user-facing web and mobile
-          apps for their two most popular product lines: REVEAL and DEFEND,
-          enabling users to manage and access cameras associated with those
-          systems.
+          Outside of professional work, I also mentor new and aspiring software
+          developers. I offer resume and portfolio reviews, conduct practice
+          interviews, and work one-on-one to help clients reach their career
+          goals. I'm proud to say that every mentee I've worked with has landed
+          their first development job within a few weeks of our sessions.
+        </p>
+
+        <p>
+          If you'd like to connect, feel free to contact me using the button
+          above, or check out my resume for more ways to reach me!
         </p>
       </div>
     </section>

@@ -2,7 +2,6 @@ import React from "react";
 import { Row, Col, Image } from "react-bootstrap";
 import fimobile from "../images/fimobile.png";
 import midchains from "../images/midchains.png";
-import mosaic from "../images/mosaic.png";
 import onboarding from "../images/onboarding.png";
 import dndvector from "../images/dndvector.png";
 import necromunda from "../images/necromunda.png";
@@ -43,7 +42,7 @@ export default function Projects() {
           <Col md={4}>
             <a
               className="project-link"
-              href="https://mid-onboarding.fi-edition.com/"
+              href="https://app.screencastify.com/v3/watch/qyZYGwakKEuspOtkd7HG"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -61,27 +60,7 @@ export default function Projects() {
           <Col md={4}>
             <a
               className="project-link"
-              href="https://research.mexchange.online/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="project-card">
-                <Image src={mosaic} alt="Mosaic Logo" />
-                <h3>Mosaic Exchange</h3>
-                <p>
-                  Profile builder for financial assets. Users can sign up to
-                  browse tailored news feeds, and read and view assets published
-                  by other contributors.{" "}
-                </p>
-              </div>
-            </a>
-          </Col>
-        </Row>
-        <Row>
-          <Col md={4}>
-            <a
-              className="project-link"
-              href="https://risk.fi-edition.com/"
+              href="https://risk.fi-edition.com/login"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -89,42 +68,9 @@ export default function Projects() {
                 <Image src={onboarding} alt="Onboarding Logo" />
                 <h3>FI Onboarding & Risk Tools</h3>
                 <p>
-                  Constructed admin and user tools for onboarding and risk
-                  management tools.
-                </p>
-              </div>
-            </a>
-          </Col>
-          <Col md={4}>
-            <a
-              className="project-link"
-              href="https://john-martinez-729.github.io/dnd-horde-battler/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="project-card">
-                <Image src={dndvector} alt="Horde Battler Logo" />
-                <h3>D&D Horde Battler</h3>
-                <p>
-                  Simulate large battles between hordes of creatures utilizing
-                  D&D's d20 system.
-                </p>
-              </div>
-            </a>
-          </Col>
-          <Col md={4}>
-            <a
-              className="project-link"
-              href="https://john-martinez-729.github.io/open-hive-war/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="project-card">
-                <Image src={necromunda} alt="Open Hive War Logo" />
-                <h3>Open Hive War</h3>
-                <p>
-                  Automatically generate missions for Necromunda using the Open
-                  Hive War cards system.
+                  A set of admin tools used to generate complex forms, manage
+                  accounts, create custom questionnaires, and output data
+                  through generated PDFs.
                 </p>
               </div>
             </a>
@@ -187,6 +133,42 @@ export default function Projects() {
                 <p>
                   A mobile application for Android and iOS that allows users to
                   manage their Tactacam DEFEND cameras.
+                </p>
+              </div>
+            </a>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={6}>
+            <a
+              className="project-link"
+              href="https://john-martinez-729.github.io/dnd-horde-battler/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="project-card">
+                <Image src={dndvector} alt="Horde Battler Logo" />
+                <h3>D&D Horde Battler</h3>
+                <p>
+                  Simulate large battles between hordes of creatures utilizing
+                  D&D's d20 system.
+                </p>
+              </div>
+            </a>
+          </Col>
+          <Col md={6}>
+            <a
+              className="project-link"
+              href="https://john-martinez-729.github.io/open-hive-war/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="project-card">
+                <Image src={necromunda} alt="Open Hive War Logo" />
+                <h3>Open Hive War</h3>
+                <p>
+                  Automatically generate missions for Necromunda using the Open
+                  Hive War cards system.
                 </p>
               </div>
             </a>
