@@ -29,6 +29,13 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `yarn deploy`
+
+Deploys the latest production build to GitHub Pages.  
+This command will first build the app, then publish the contents of the `build` folder to the `gh-pages` branch of your repository.
+
+Make sure you have correctly set the `homepage` field in your `package.json` to the URL where your app will be hosted.  
+
 ### `yarn eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
