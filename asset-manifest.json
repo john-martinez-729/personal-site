@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.3f9d3dab.css",
-    "main.js": "/static/js/main.b8101f7f.js",
+    "main.css": "/static/css/main.1b96da80.css",
+    "main.js": "/static/js/main.de89b9c0.js",
     "static/js/453.d6da8aaa.chunk.js": "/static/js/453.d6da8aaa.chunk.js",
     "static/media/fimobile.png": "/static/media/fimobile.22e769cdd6432bde9ed7.png",
     "static/media/reveal-logo.png": "/static/media/reveal-logo.058061e6a23bd849d462.png",
-    "static/media/resume.pdf": "/static/media/resume.1d810d32d13f87c11d7e.pdf",
     "static/media/defend-logo.jpg": "/static/media/defend-logo.14175ec7043fe0067666.jpg",
     "static/media/logo-white.png": "/static/media/logo-white.69dca34fc52da9e68246.png",
     "static/media/logo-inverted.png": "/static/media/logo-inverted.85cf4e25d63d98499d3c.png",
+    "static/media/defend-mobile.webp": "/static/media/defend-mobile.6634ae1dce91d731bc6f.webp",
+    "static/media/cabelas-cell-cam.webp": "/static/media/cabelas-cell-cam.412ea14469f914f3b4c8.webp",
     "index.html": "/index.html",
-    "main.3f9d3dab.css.map": "/static/css/main.3f9d3dab.css.map",
-    "main.b8101f7f.js.map": "/static/js/main.b8101f7f.js.map",
+    "main.1b96da80.css.map": "/static/css/main.1b96da80.css.map",
+    "main.de89b9c0.js.map": "/static/js/main.de89b9c0.js.map",
     "453.d6da8aaa.chunk.js.map": "/static/js/453.d6da8aaa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f9d3dab.css",
-    "static/js/main.b8101f7f.js"
+    "static/css/main.1b96da80.css",
+    "static/js/main.de89b9c0.js"
   ]
 }
