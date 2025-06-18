@@ -119,17 +119,12 @@ header div {
 
 @media only screen and (max-width: 62em) {
   .primary-section {
-    /* margin-bottom: 3rem; */
     padding-top: 4rem;
   }
 
-  .primary-section p {
-    margin-bottom: 3rem;
+  .primary-section p,
+  header p {
     font-size: 1rem;
-  }
-
-  .primary-section h2 {
-    font-size: 1.43rem;
   }
 }
 
@@ -184,8 +179,6 @@ header div {
 @media only screen and (max-width: 62em) {
   .skill-card {
     padding: 2rem 1.5rem;
-    /* min-width: 300px !important; */
-    /* max-width: 343px !important; */
     border-right: none !important;
   }
 
