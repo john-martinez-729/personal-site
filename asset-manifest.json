@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.1b96da80.css",
+    "main.css": "/static/css/main.cc505239.css",
     "main.js": "/static/js/main.7c3dcd58.js",
     "static/js/453.d6da8aaa.chunk.js": "/static/js/453.d6da8aaa.chunk.js",
     "static/media/fimobile.png": "/static/media/fimobile.22e769cdd6432bde9ed7.png",
@@ -11,12 +11,12 @@
     "static/media/defend-mobile.webp": "/static/media/defend-mobile.6634ae1dce91d731bc6f.webp",
     "static/media/cabelas-cell-cam.webp": "/static/media/cabelas-cell-cam.412ea14469f914f3b4c8.webp",
     "index.html": "/index.html",
-    "main.1b96da80.css.map": "/static/css/main.1b96da80.css.map",
+    "main.cc505239.css.map": "/static/css/main.cc505239.css.map",
     "main.7c3dcd58.js.map": "/static/js/main.7c3dcd58.js.map",
     "453.d6da8aaa.chunk.js.map": "/static/js/453.d6da8aaa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b96da80.css",
+    "static/css/main.cc505239.css",
     "static/js/main.7c3dcd58.js"
   ]
 }
