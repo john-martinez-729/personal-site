@@ -60,7 +60,7 @@ export default function ContactMe({ show, handleClose }) {
   const disabled = !name || !notes || !email ? true : false;
 
   return (
-    <Modal show={show} onHide={handleClose}>
+    <Modal show={show} onHide={handleClose} centered>
       <BannerAlert
         show={showAlert}
         onClose={handleHideAlert}
@@ -71,10 +71,10 @@ export default function ContactMe({ show, handleClose }) {
         <Modal.Title>Contact Me</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <FormControl placeholder="Name..." onChange={handleChangeName} />
-        <FormControl placeholder="Email..." onChange={handleChangeEmail} />
+        <FormControl placeholder="Name" onChange={handleChangeName} />
+        <FormControl placeholder="Email" onChange={handleChangeEmail} />
         <FormControl
-          placeholder="Message..."
+          placeholder="Message"
           as="textarea"
           onChange={handleChangeNotes}
         />

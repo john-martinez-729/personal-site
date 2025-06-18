@@ -1,11 +1,12 @@
-import Topbar from "./Topbar.js";
-import Header from "./Header.js";
-import Hero from "./Hero.js";
-import Skills from "./Skills.js";
-import Footer from "./Footer.js";
-import Projects from "./Projects.js";
-import ContactMe from "./ContactMe.js";
-import BannerAlert from "./BannerAlert.js";
+import Topbar from "./Topbar.jsx";
+import Header from "./Header.jsx";
+import Hero from "./Hero.jsx";
+import Skills from "./Skills.jsx";
+import Footer from "./Footer.jsx";
+import Projects from "./Projects.jsx";
+import ContactMe from "./ContactMe.jsx";
+import BannerAlert from "./BannerAlert.jsx";
+import Resume from "./Resume.jsx";
 
 export {
   Topbar,
@@ -16,4 +17,5 @@ export {
   Projects,
   ContactMe,
   BannerAlert,
+  Resume,
 };

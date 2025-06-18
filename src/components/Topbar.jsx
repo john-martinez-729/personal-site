@@ -1,19 +1,21 @@
 import React from "react";
 import { Navbar, Button, Image } from "react-bootstrap";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import logo from "../images/logo-white.png";
-import resume from "../images/resume.pdf";
 
 export default function Topbar({ handleShow }) {
   return (
-    <Navbar collapseOnSelect expand="sm" variant="dark">
+    <Navbar collapseOnSelect expand="sm" variant="dark" className="px-3">
       <Navbar.Brand>
-        <Image src={logo} alt="Logo" />
+        <Link to="/">
+          <Image src={logo} alt="Logo" />
+        </Link>
       </Navbar.Brand>
 
-      <div>
-        <a href={resume} target="_blank" rel="noopener noreferrer">
+      <div className="d-flex gap-2 ms-auto">
+        <Link to="/resume">
           <Button>Resume</Button>
-        </a>
+        </Link>
         <Button onClick={handleShow}>Contact Me</Button>
       </div>
     </Navbar>

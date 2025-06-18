@@ -7,6 +7,7 @@ import {
   Footer,
   Projects,
   ContactMe,
+  Resume,
 } from "./components";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -28,7 +29,7 @@ export default function App() {
       <div className="main">
         <ContactMe show={show} handleClose={handleClose} />
         <Header />
-        <Hero />
+        <Hero handleShow={handleShow} />
         <Skills />
         <Projects />
       </div>
@@ -39,7 +40,8 @@ export default function App() {
     <Router>
       <Topbar handleShow={handleShow} />
       <Switch>
-        <Route path="/" component={mainBody} />
+        <Route exact path="/" component={mainBody} />
+        <Route exact path="/resume" component={Resume} />
       </Switch>
       <Footer handleShow={handleShow} />
     </Router>

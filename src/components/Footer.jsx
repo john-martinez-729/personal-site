@@ -4,7 +4,7 @@ import { BiCopyright } from "react-icons/bi";
 import { RiReactjsFill } from "react-icons/ri";
 import { SiJavascript } from "react-icons/si";
 import logoInverted from "../images/logo-inverted.png";
-import resume from "../images/resume.pdf";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 export default function Footer({ handleShow }) {
   return (
@@ -12,14 +12,9 @@ export default function Footer({ handleShow }) {
       <Image alt="Logo, Inverted" src={logoInverted} />
       <h4>Software Developer, Designer & Mentor</h4>
       <div className="footer-links">
-        <a
-          className="footer-link"
-          href={resume}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <Link className="footer-link" to="/resume">
           Resume
-        </a>
+        </Link>
         <div onClick={handleShow} className="footer-link">
           Contact Me
         </div>
